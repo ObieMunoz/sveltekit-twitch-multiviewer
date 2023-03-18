@@ -11,10 +11,9 @@
 	export let id: string;
 	export let live: boolean;
 
-	let player: any;
+	let player: Twitch.Player;
 
 	onMount(async () => {
-		// @ts-ignore
 		player = new Twitch.Player(`twitch-embed-${id}`, {
 			channel,
 			width,
