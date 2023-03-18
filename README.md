@@ -12,7 +12,7 @@ This project is a SvelteKit app that displays multiple Twitch channels using a s
 
 #### ChannelsGrid
 
-This is the main component that receives an array of Twitch channels and displays them using the `ChannelEmbed` component. It uses the `checkLive` function from `ChannelStatusUtils.ts` to determine if the channel is live or not.
+This is the main component that receives an array of Twitch channels and displays them using the `ChannelEmbed` component. It uses the `checkLive` function from `TwitchUtils.ts` to determine if the channel is live or not.
 
 #### ChannelEmbed
 
