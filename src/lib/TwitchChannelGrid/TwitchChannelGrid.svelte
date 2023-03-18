@@ -30,12 +30,6 @@
 {/each}
 
 <style>
-	div,
-	h2,
-	p {
-		margin: 0;
-	}
-
 	div {
 		display: inline-flex;
 		flex-direction: column;
