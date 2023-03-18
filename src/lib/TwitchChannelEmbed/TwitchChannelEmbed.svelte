@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import ChannelStatus from '../../routes/ChannelStatus.svelte';
+	import LiveStatus from '../LiveStatus/LiveStatus.svelte';
 
 	export let channel: string;
 	export let width = '100%';
@@ -28,7 +28,7 @@
 
 <div id={`twitch-embed-${id}`} class="twitch-embed">
 	<div class="live-marker">
-		<ChannelStatus {live} />
+		<LiveStatus {live} />
 	</div>
 </div>
 

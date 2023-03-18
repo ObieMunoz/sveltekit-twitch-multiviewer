@@ -1,4 +1,4 @@
-export async function checkLive(channel: string): Promise<boolean> {
+export async function isChannelLive(channel: string): Promise<boolean> {
 	try {
 		const url = `https://static-cdn.jtvnw.net/previews-ttv/live_user_${channel}-1x1.jpg`;
 		const response = await fetch(url, { redirect: 'manual' });
